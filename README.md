@@ -10,7 +10,7 @@
 |---------------------------------|---------------------------------------------------|
 | VPC + subnet public             | eu-west-3 (Paris)                                 |
 | Internet Gateway + Route Table  | Accès Internet complet                            |
-| EC2 Amazon Linux 2023           | t3.micro + user_data (serveur web Apache)         |
+| EC2 Amazon Linux 2023           | t3.micro                                          |
 | Application Load Balancer       | HTTP → HTTPS redirect automatique                 |
 | Security Groups                 | SSH (22) + HTTP/HTTPS ouvert                      |
 | IAM Role + Instance Profile     | Policy AmazonS3ReadOnlyAccess (least privilege)   |
