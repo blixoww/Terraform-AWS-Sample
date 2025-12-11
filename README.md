@@ -1,7 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/hashicorp/terraform/main/website/docs/assets/terraform-logo.svg" width="180" alt="Terraform Logo">
-
-# Infrastructure AWS complète avec Terraform  
-**Décembre 2025**
+# Infrastructure AWS avec Terraform  
 
 [![Terraform](https://img.shields.io/badge/Terraform-1.9+-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
