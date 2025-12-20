@@ -25,7 +25,7 @@ resource "aws_lb_target_group" "app_tg" {
 }
 
 resource "aws_alb_listener" "aws_lb_listener_https" {
-  load_balancer_arn = "aws_lb.app_lb.arn"
+  load_balancer_arn = aws_lb.app_lb.arn
   port              = 443
   protocol          = "HTTPS"
   ssl_policy        = "ELBSecurityPolicy-2016-08"
